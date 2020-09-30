@@ -1,0 +1,59 @@
+body {
+    display: grid;
+    grid-template-columns: 37% 3% 60%;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 27% 30% 35%;
+    text-align: center;
+}
+
+.principal>div {
+    padding: 10px;
+}
+
+.titulo, .dataInicio, .dataConclusao {
+    border: 1px solid black;
+}
+
+.container {
+    padding: 0 5px;
+    display: flex;
+}
+
+.prazo {
+    padding: 0 5px;
+    display: flex;
+}
+
+.head>div {
+    height: 38px;
+    text-align: center;
+}
+
+.prazo .datas .week {
+    visibility: hidden;
+}
+
+.datas {
+    border: 1px solid gainsboro;
+    width: 47px;
+    height: 47px;
+}
+
+.dev {
+    background: rgb(0, 255, 64);
+}
+
+.teste {
+    background: rgb(255, 94, 0);
+}
+
+.fim {
+    background: rgb(227, 250, 249);
+}
+
+.dia, .week {
+    text-align: center;
+}
